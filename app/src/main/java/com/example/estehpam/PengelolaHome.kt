@@ -92,7 +92,7 @@ fun EsJumboApp(
                         context.resources.getString(id)},
                     onSelectionChanged = {viewModel.setRasa(it)},
                     onConfirmButtonClicked = {viewModel.setJumlah(it)},
-                    onNexButtonClicked = {navController.navigate(PengelolaHalaman.Summary.name)},
+                    onNextButtonClicked = {navController.navigate(PengelolaHalaman.Summary.name)},
                     onCancelButtonClicked = {cancelOrderAndNavigateToHome(
                         viewModel,
                         navController

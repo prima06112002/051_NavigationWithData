@@ -35,7 +35,7 @@ fun HalamanSatu(
     pilihanRasa: List<String>,
     onSelectionChanged: (String) -> Unit,
     onConfirmButtonClicked: (Int) -> Unit,
-    onNexButtonClicked:() -> Unit,
+    onNextButtonClicked:() -> Unit,
     onCancelButtonClicked:() -> Unit,
     modifier: Modifier =Modifier
 ) {
@@ -111,7 +111,7 @@ fun HalamanSatu(
                 }
                 Button(modifier = Modifier.weight(1f),
                     enabled = textjmlBeli.isNotEmpty(),
-                    onClick = onNexButtonClicked
+                    onClick = onNextButtonClicked
                 ) {
                     Text(stringResource(R.string.next))
                 }
