@@ -53,6 +53,11 @@ fun HalamanForm(
         }, label = {
             Text(text = "Alamat")
         })
+        OutlinedTextField(value = telponTxt, onValueChange = {
+            telponTxt = it
+        }, label = {
+            Text(text = "No. Telepon")
+        })
     }
 
 }
