@@ -24,7 +24,6 @@ import com.example.estehpam.komponen.FormatLabelMarge
 fun HalamanDua (
     orderUiState: OrderUIState,
     onCancelButtonCLicked: () -> Unit,
-    //onSendButtonClicked: (String, String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val items = listOf(
